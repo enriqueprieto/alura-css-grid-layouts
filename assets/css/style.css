@@ -11,21 +11,28 @@
 }
 
 .cabecalho {
-    background: #00cc99;
     align-items: center;
     display: flex;
     grid-area: cabecalho;
     padding: 0 2rem;
 }
 
+.menu__link {
+    color: #333333;
+    padding: .5rem 1rem;
+}
+
+.menu__link:hover, .menu__link.ativo {
+    border-bottom: 2px solid #0073e6;
+}
+
 .conteudo {
-    background: #ff8080;
     grid-area: conteudo;
     padding: 0 2rem;
 }
 
 .rodape {
-    background: #0099ff;
+    background: #fdfdfd;
     color: #333333;
     font-size: .8rem;
     grid-area: rodape;
